@@ -1,0 +1,258 @@
+/*----Lien font----*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*-----------------------*/
+/*----ROOT----*/
+:root{
+    --primary: black;
+    --secondary: white;
+    --tertiary: rgb(53, 115, 139);
+}
+/*-----------------*/
+/*----Reset---*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*-----------*/
+/*Parler au balise*/
+a{
+    text-decoration: none;
+}
+/*----------------*/
+/*----Stylisation texte----*/
+.gras{
+    font-weight: bold;
+}
+.italique{
+    font-style: italic;
+}
+.textcenter{
+    text-align: center;
+}
+/*Taille de police*/
+.font8{
+    font-size: 8px;
+}
+.font16{
+    font-size: 16px;
+}
+.font32{
+    font-size: 32px;
+}
+.font64{
+    font-size: 64px;
+}
+/*Couleur de police*/
+.fontbrown{
+    color: #3E2C23;
+}
+.fontwhite{
+    color:white;
+}
+/*Style de police*/
+.playfair{
+    font-family: "Playfair", sans-serif;
+}
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
+/*------------------------*/
+/*----Différente largeur/longueur----*/
+/*Largeur*/
+.w50{
+    width: 50%;
+}
+.w60{
+    width: 60%;
+}
+.w48{
+    width: 48%;
+}
+.w31{
+    width: 31%;
+}
+.w100{
+    width:100%;
+}
+.w23{
+    width: 23%;
+}
+/*Longueur*/
+.h100vh{
+    height: 100vh;
+}
+.h90vh{
+    height: 90vh;
+}
+.h50vh{
+    height: 50vh;
+}
+/*------------------------*/
+/*----Marge----*/
+/*padding*/
+.padding16{
+    padding: 16px;
+}
+.padding32{
+    padding: 32px;
+}
+.padding64{
+    padding: 64px;
+}
+/*padding-top*/
+.pt-128{
+    padding-top:128px
+}
+/*margin-top*/
+.mt-16{
+    margin-top:16px;
+}
+.mt-32{
+    margin-top:32px;
+}
+.mt-64{
+    margin-top:64px
+}
+.mt-100{
+    margin-top: 100px;
+}
+/*------------*/
+/*----Flex box----*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*justify-content*/
+.start{
+    justify-content: flex-start;
+}
+.end{
+    justify-content: flex-end;
+}
+.between{
+    justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
+}
+
+.evenly{
+    justify-content: space-evenly;
+}
+/*align-items*/
+.align-start{
+    align-items: flex-start;
+}
+.align-end{
+    align-items: flex-end;
+}
+.align-center{
+    align-items: center;
+}
+.align-baseline{
+    align-items: baseline;
+}
+.align-stretch{
+    align-items: stretch;
+}
+/*align-content*/
+.aligncontent-start{
+    align-content: flex-start;
+}
+.aligncontent-end{
+    align-content: flex-end;
+}
+.aligncontent-center{
+    align-content: center;
+}
+.aligncontent-baseline{
+    align-content: baseline;
+}
+.aligncontent-stretch{
+    align-content: stretch;
+}
+/*flex direction*/
+.row{
+    flex-direction: row;
+}
+.rowreverse{
+    flex-direction: row-reverse;
+}
+.column{
+    flex-direction: column;
+}
+.columnreverse{
+    flex-direction: column-reverse;
+}
+/*container*/
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Gap*/
+.gap8{
+    gap: 8px;
+}
+.gap16{
+    gap:16px;
+}
+.gap32{
+    gap:32px;
+}
+/*---------------*/
+/*----Bouton/card/box---*/
+.btn{
+    background-color: #3E2C23 ;
+    color: white;
+    display: inline-block;
+    padding: 12px 32px;
+}
+.boxlogo{
+    width: 112px;
+    height: 61px;
+}
+.radius64{
+    border-radius: 64px;
+}
+.radius128{
+    border-radius: 128px;
+}
+.bsolid{
+    border: solid 5px black;
+}
+.bdashed{
+    border: dashed 5px black
+}
+.bdotted{
+    border: dotted 5px black
+}
+.bthickdouble{
+    border: thick double 5px black;
+}
+/*-------------------*/
+/*----Background----*/
+/*Image*/
+.bg-hero{
+    background-image: url(Image/Hero.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*Couleur*/
+.bg-présentation{
+    background-color: #D4CDC3;
+}
+/*-----------------*/
+/*----Média----*/
+@media all and (max-width: 1000px){
+
+}
+@media all and (max-width: 700px){
+
+}
+@media all and (max-width: 450px){
+
+}
+/*-------------*/
