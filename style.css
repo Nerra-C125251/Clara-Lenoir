@@ -88,6 +88,9 @@ a{
     width: 300px;
 }
 /*Longueur*/
+.h19vh{
+    height: 19vh;
+}
 .h100{
     height: 100%;
 }
@@ -155,6 +158,9 @@ a{
 }
 .end{
     justify-content: flex-end;
+}
+.center{
+    justify-content: center;
 }
 .between{
     justify-content: space-between;
@@ -300,6 +306,10 @@ a{
 }
 .bg-presta{
     background-color: #C4B59D;
+}
+.bgvaleurs{
+    background-color: #3E2C23;
+    height: 30vh;
 }
 /*-----------------*/
 /*----Média----*/
