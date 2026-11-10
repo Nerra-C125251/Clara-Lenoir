@@ -136,8 +136,12 @@ a{
     margin-top: 100px;
 }
 /*margin left*/
-.ml-32{
-    margin-left: 32px;
+.ml-290{
+    margin-left: 290px;
+}
+/*margin right*/
+.mr-290{
+    margin-right: 290px;
 }
 /*------------*/
 /*----Flex box----*/
@@ -212,7 +216,6 @@ a{
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
 }
 /*Gap*/
 .gap8{
@@ -241,6 +244,9 @@ a{
 }
 .rprestations{
     border-radius: 150px 0 0 150px;
+}
+.rprestations2{
+    border-radius: 0 150px 150px 0;
 }
 .radius64{
     border-radius: 64px;
