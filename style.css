@@ -31,6 +31,17 @@ h3{
 p{
     font-family: "Ronoto", sans-serif;
 }
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+}
 /*----------------*/
 /*----Stylisation texte----*/
 .gras{
@@ -477,8 +488,21 @@ p{
 /*----Média----*/
 @media all and (max-width: 1000px){
 }
+@media all and (max-width: 820px){
+    .ml-290{
+        margin-left: 70px;
+    }
+    .mr-290{
+        margin-right: 70px;
+    }
+}
 @media all and (max-width: 700px){
-
+    .ml-290{
+        margin-left: 30px;
+    }
+    .mr-290{
+        margin-right: 30px;
+    }
 }
 @media all and (max-width: 450px){
 
