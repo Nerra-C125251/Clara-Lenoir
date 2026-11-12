@@ -64,6 +64,19 @@ a{
 }
 /*------------------------*/
 /*----Différente largeur/longueur----*/
+/*image*/
+.portrait{
+    width: 268px;
+    height: 402px;
+}
+.mariage{
+    width: 550px;
+    height: 193px;
+}
+.voyagenovatech{
+    width: 267px;
+    height: 193px;
+}
 /*Largeur %*/
 .w50{
     width: 50%;
@@ -233,6 +246,9 @@ a{
 .gap32{
     gap:32px;
 }
+.gap64{
+    gap: 64px;
+}
 /*---------------*/
 /*----Bouton/card/box/autre---*/
 .btn{
@@ -251,6 +267,10 @@ a{
 .boxlogo{
     width: 112px;
     height: 61px;
+}
+.boximmariage{
+    width: 263px;
+    height: 190px;
 }
 .border{
     border: solid 1px black;
@@ -349,3 +369,17 @@ a{
     z-index: 1;
 }
 /*------------------*/
+/*----Animation----*/
+.balade {
+  animation: balade 20s infinite linear;
+}
+
+@keyframes balade {
+  0% {
+    transform: translateX(-1094px);
+  }
+  100% {
+    transform: translateX(1094px);
+  }
+}
+/*----------------*/
