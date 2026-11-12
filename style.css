@@ -467,17 +467,22 @@ header{
 }
 /*------------------*/
 /*----Animation----*/
+.marquee{
+    overflow: hidden;
+}
 .balade {
-  animation: balade 20s infinite linear;
+    display: flex;
+    width: max-content;
+    animation: balade 20s infinite linear;
 }
 
 @keyframes balade {
-  0% {
-    transform: translateX(-1094px);
-  }
-  100% {
-    transform: translateX(1094px);
-  }
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 /*----------------*/
 /*----Icone phosphor----*/
