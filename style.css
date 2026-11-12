@@ -455,14 +455,9 @@ p{
 @media all and (max-width: 1000px){
 }
 @media all and (max-width: 700px){
-    h3{
-        font-size: 50px;
-    }
+    
 }
 @media all and (max-width: 450px){
-    h3{
-        font-size: 30px;
-    }
 
 }
 /*-------------*/
