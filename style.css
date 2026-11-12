@@ -79,6 +79,9 @@ p{
 }
 .bento-grid img{
     width: 100%;
+    height: stretch;
+    object-fit: cover;
+    display: block;
 }
 /*image*/
 .portrait{
@@ -146,6 +149,9 @@ p{
 }
 .padding64{
     padding: 64px;
+}
+.padding80{
+    padding: 80px;
 }
 .padding3515{
     padding: 30px 15px;
@@ -276,6 +282,9 @@ p{
 .gap64{
     gap: 64px;
 }
+.gap-bento{
+    gap:var(--gap);
+}
 /*---------------*/
 /*----Bouton/card/box/autre---*/
 /*Bouton*/
@@ -326,6 +335,15 @@ p{
 .radius-prestations2{
     border-radius: 0 150px 150px 0;
 }
+.r-32-0-0-32{
+    border-radius: 32px 0 0 32px;
+}
+.r-0-32-0-0{
+    border-radius: 0 32px 0 0;
+}
+.r-0-0-32-0{
+    border-radius: 0 0 32px 0;
+}
 .radius16{
     border-radius: 16px;
 }
@@ -374,6 +392,11 @@ p{
     width: 1px;
     height: 50vh;
     background-color: black;
+}
+.séparateur2{
+    width: 1px;
+    height: 30vh;
+    background-color: white;
 }
 .bg-presta{
     background-color: #C4B59D;
