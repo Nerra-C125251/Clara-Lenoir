@@ -478,10 +478,10 @@ header{
 
 @keyframes balade {
     0% {
-        transform: translateX(0);
+        transform: translateX(1140px);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-1140px);
     }
 }
 /*----------------*/
