@@ -323,7 +323,7 @@ header{
     background-color: #886350;
 }
 .btn2:hover{
-    border: 3px dashed rgb(61, 37, 18);
+    border: 1px dashed rgb(61, 37, 18);
     color: rgb(61, 37, 18);
 }
 .btn3:hover{
