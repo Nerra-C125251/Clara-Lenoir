@@ -22,6 +22,15 @@
 a{
     text-decoration: none;
 }
+h2{
+    font-family: "Dancing Script", cursive;
+}
+h3{
+    font-family: "Playfair", sans-serif;
+}
+p{
+    font-family: "Ronoto", sans-serif;
+}
 /*----------------*/
 /*----Stylisation texte----*/
 .gras{
@@ -54,15 +63,6 @@ a{
     color:white;
 }
 /*Style de police*/
-.playfair{
-    font-family: "Playfair", sans-serif;
-}
-.roboto{
-    font-family: "Roboto", sans-serif;
-}
-.dancing-script{
-    font-family: "Dancing Script", cursive;
-}
 /*------------------------*/
 /*----Différente largeur/longueur----*/
 .large-4 {
@@ -151,6 +151,9 @@ a{
     padding: 30px 15px;
 }
 /*padding-top*/
+.pt-16{
+    padding-top: 16px;
+}
 .pt-50{
     padding-top: 50px;
 }
@@ -275,6 +278,7 @@ a{
 }
 /*---------------*/
 /*----Bouton/card/box/autre---*/
+/*Bouton*/
 .btn{
     background-color: #3E2C23 ;
     color: white;
@@ -288,6 +292,25 @@ a{
     color: black;
     display: inline-block;
 }
+.btn3{
+    border: 1px solid white;
+    padding: 12px 32px;
+    border-radius: 30px;
+    color: white;
+    display: inline-block;
+}
+.btn:hover{
+    background-color: #886350;
+}
+.btn2:hover{
+    border: 3px dashed rgb(61, 37, 18);
+    color: rgb(61, 37, 18);
+}
+.btn3:hover{
+    border: 1px solid black;
+    color: black;
+}
+/*Box*/
 .boxlogo{
     width: 112px;
     height: 61px;
@@ -296,9 +319,7 @@ a{
     width: 263px;
     height: 190px;
 }
-.border{
-    border: solid 1px black;
-}
+/*Radius*/
 .radius-prestations{
     border-radius: 150px 0 0 150px;
 }
@@ -317,6 +338,7 @@ a{
 .radius128{
     border-radius: 128px;
 }
+/*Border*/
 .bsolid{
     border: solid 5px black;
 }
