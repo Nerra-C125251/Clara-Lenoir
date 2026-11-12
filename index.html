@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clara Lenoir</title>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -31,7 +36,7 @@
     </section>
     <!-- ---- -->
     <!-- Section présentation -->
-    <section class="bg-présentation">
+    <section class="bg-beigeclaire h100vh">
         <div class="container">
             <div class="flex between align-center pt-50">
                 <div class="relative">
@@ -41,7 +46,7 @@
                 <div class="séparateur">
                 </div>
                 <div class="w31 bg-p2 padding3515">
-                    <h2 class="dancing-script textcenter fontbrown">Présentation</h2>
+                    <h2 class="dancing-script textcenter fontbrown font32">Présentation</h2>
                     <p class="mt-32 fontbrown">Photographe indépendante, j'accompagne particuliers et professionnels
                         dans la création d'un
                         patrimoine visuel moderne et percutant.</p>
@@ -63,10 +68,10 @@
     <section>
         <div>
             <Div>
-                <h2 class="dancing-script textcenter fontbrown pt-50">Les prestations</h2>
+                <h2 class="dancing-script textcenter fontbrown pt-50 font32">Les prestations</h2>
             </Div>
             <img src="Image/filigrame 2 gauche.png" alt="" class="absolute">
-            <div class="bg-presta flex align-center padding16 rprestations ml-290 mt-32 relative">
+            <div class="bg-presta flex align-center padding16 radius-prestations ml-290 mt-32 relative">
                 <img src="Image/Evenement-reportage.png" alt="">
                 <div class="w48 padding16">
                     <h3 class="fontbrown playfair">Evénements et reportages</h3>
@@ -78,7 +83,7 @@
             </div>
         </div>
         <img src="Image/filigrame 2 droit.png" alt="" class="absolute2">
-        <div class="bg-presta flex align-center padding16 rprestations2 mr-290 mt-32 end relative">
+        <div class="bg-presta flex align-center padding16 radius-prestations2 mr-290 mt-32 end relative">
             <div class="w48 padding16">
                 <h3 class="fontbrown playfair">Photographie mariage</h3>
                 <p class="roboto fontbrown mt-32">Des clichés sincères et élégants qui retracent avec authenticité
@@ -89,7 +94,7 @@
             <img src="Image/Photographie mariage.png" alt="">
         </div>
         <img src="Image/filigrame 2 gauche.png" alt="" class="absolute">
-        <div class="bg-presta flex align-center padding16 rprestations ml-290 mt-32 relative">
+        <div class="bg-presta flex align-center padding16 radius-prestations ml-290 mt-32 relative">
 
             <img src="Image/Shooting professionnel.png" alt="">
             <div class="w48 padding16">
@@ -103,10 +108,11 @@
     </section>
     <!-- ------------------ -->
     <!-- Section Valeurs ajoutée -->
-    <section class="bgvaleurs mt-32">
+    <section class="bgbrown h30vh mt-32">
         <div class="container">
             <div class="padding16">
-                <h2 class="textcenter dancing-script fontwhite">Une approche humaine et poétique pour des instants figés
+                <h2 class="textcenter dancing-script fontwhite font32">Une approche humaine et poétique pour des
+                    instants figés
                     à jamais</h2>
             </div>
             <div class="h19vh flex gap64 align-center center">
@@ -123,29 +129,109 @@
     <!-- ----------------------- -->
     <!-- Section Galerie -->
     <Section class="container">
-        <h2 class="dancing-script fontbrown textcenter padding32">La galerie</h2>
-        <Div>
-            <Div><img src="Image/portraits-lumiere.png" alt="" ></Div>
-            <Div><img src="Image/mariage.png" alt="" ></Div>
-            <Div><img src="Image/corporate-novatech.png" alt="" ></Div>
-            <Div><img src="Image/voyage-islande.png" alt="" ></Div>
-        </Div>
+        <h2 class="dancing-script fontbrown textcenter padding32 font32">La galerie</h2>
+        <div class="flex bento-grid3">
+            <div class="large-4">
+                <div><img src="Image/portraits-lumiere.png" alt=""></div>
+            </div>
+            <div class="flex large-8">
+                <div class="large-12"><img src="Image/mariage.png" alt=""></div>
+                <div class="large-6"><img src="Image/corporate-novatech.png" alt=""></div>
+                <div class="large-6"><img src="Image/voyage-islande.png" alt=""></div>
+            </div>
+        </div>
         <div>
-            <a href="">Voir d'avantage</a>
+            <a class="btn2" href="">Voir d'avantage</a>
         </div>
     </Section>
     <!-- --------------- -->
     <!-- Section Témoignages clients -->
-    <section>
-        <H2></H2>
-        <div>
-            <Div></Div>
-            <div></div>
-            <div></div>
-        </div>
+    <section class="bg-beigeclaire">
+        <div class="container">
+            <H2 class="dancing-script fontbrown textcenter padding32 font32">Témoignages clients</H2>
+            <div>
+                <div class="flex end">
+                    <Div class="bgwhite w48 radius16 padding16 relative">
+                        <div class="deco2"></div>
+                        <div class="flex between">
+                            <h3 class="fontbrown playfair">Amélie</h3>
+                            <div>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="mt-16">
+                            “Les photos de notre mariage sont magnifiques ! Clara a su saisir les émotions avec beaucoup
+                            de sensibilité. Chaque image raconte une histoire.”
+                        </p>
+                    </Div>
+                </div>
+                <div class="flex start">
+                    <Div class="bgwhite w48 radius16 padding16 relative">
+                        <div class="deco3"></div>
+                        <div class="flex between">
+                            <h3 class="fontbrown playfair">Julien</h3>
+                            <div>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="mt-16">
+                            “Un super moment passé en séance ! Clara met à l’aise et sait diriger sans forcer. Résultat
+                            : des portraits naturels et percutants.”
+                        </p>
+                    </Div>
+                </div>
+                <div class="flex end pb-50">
+                    <Div class="bgwhite w48 radius16 padding16 relative">
+                        <div class="deco2"></div>
+                        <div class="flex between">
+                            <h3 class="fontbrown playfair">Nadia</h3>
+                            <div>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                                <i class="ph-fill ph-star"></i>
+                            </div>
+                        </div>
+                        <p class="mt-16">
+                            “Nous avons adoré la séance en extérieur. Les enfants se sont amusés et les photos sont
+                            pleines de vie et d’émotion.”
+                        </p>
+                    </Div>
+                </div>
+            </div>
     </section>
     <!-- --------------------------- -->
     <!-- Footer -->
+    <footer class="bgbrown">
+        <div class="container flex between pt-50 pb-50">
+            <div class="flex column">
+                <h2 class="dancing-script fontwhite font32">Préstation</h2>
+                <a href="" class="fontwhite mt-16">Evénements et reportages</a>
+                <a href="" class="fontwhite">Photographie mariage</a>
+                <a href="" class="fontwhite">Evénements et reportages</a>
+            </div>
+            <div>
+                <h2 class="dancing-script fontwhite font32">Horraire
+                </h2>
+                <p></p>
+            </div>
+            <div>
+                <h2 class="dancing-script fontwhite font32">Où nous trouver</h2>
+                <p></p>
+            </div>
+        </div>
+        <hr>
+        <p class="textcenter fontwhite">© 2026 Clara Lenoir</p>
+    </footer>
     <!-- ------ -->
 </body>
 

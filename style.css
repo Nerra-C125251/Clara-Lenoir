@@ -8,6 +8,7 @@
     --primary: black;
     --secondary: white;
     --tertiary: rgb(53, 115, 139);
+    --gap: 32px
 }
 /*-----------------*/
 /*----Reset---*/
@@ -64,6 +65,21 @@ a{
 }
 /*------------------------*/
 /*----Différente largeur/longueur----*/
+.large-4 {
+  width: calc(33.3333333333% - 2 * var(--gap) / 3);
+}
+.large-12 {
+  width: calc(100% - 0 * var(--gap) / 1);
+}
+.large-6 {
+  width: calc(50% - 1 * var(--gap) / 2);
+}
+.large-8 {
+  width: calc(66.6666666667% - 0.5 * var(--gap) / 1.5);
+}
+.bento-grid img{
+    width: 100%;
+}
 /*image*/
 .portrait{
     width: 268px;
@@ -116,6 +132,9 @@ a{
 .h50vh{
     height: 50vh;
 }
+.h30vh{
+    height: 30vh;
+}
 /*------------------------*/
 /*----Marge----*/
 /*padding*/
@@ -138,6 +157,11 @@ a{
 .pt-128{
     padding-top:128px
 }
+/*----padding end----*/
+.pb-50{
+    padding-bottom: 50px;
+}
+/*-------------------*/
 /*margin-top*/
 .mt-16{
     margin-top:16px;
@@ -275,11 +299,17 @@ a{
 .border{
     border: solid 1px black;
 }
-.rprestations{
+.radius-prestations{
     border-radius: 150px 0 0 150px;
 }
-.rprestations2{
+.radius-prestations2{
     border-radius: 0 150px 150px 0;
+}
+.radius16{
+    border-radius: 16px;
+}
+.radius32{
+    border-radius: 32px;
 }
 .radius64{
     border-radius: 64px;
@@ -315,9 +345,8 @@ a{
     height: 347px;
 }
 /*Couleur*/
-.bg-présentation{
+.bg-beigeclaire{
     background-color: #D4CDC3;
-    height: 100vh;
 }
 .séparateur{
     width: 1px;
@@ -327,22 +356,14 @@ a{
 .bg-presta{
     background-color: #C4B59D;
 }
-.bgvaleurs{
+.bgbrown{
     background-color: #3E2C23;
-    height: 30vh;
+}
+.bgwhite{
+    background-color: white;
+    display:inline-block
 }
 /*-----------------*/
-/*----Média----*/
-@media all and (max-width: 1000px){
-
-}
-@media all and (max-width: 700px){
-
-}
-@media all and (max-width: 450px){
-
-}
-/*-------------*/
 /* Absolute/Relative */
 .deco{
     position: absolute;
@@ -350,6 +371,26 @@ a{
     left: 16px;
     border: 1px solid black;
     border-radius: 64px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.deco2{
+    position: absolute;
+    border: solid 1px white;
+    border-radius: 16px;
+    top :16px;
+    right: 16px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.deco3{
+    position: absolute;
+    border: solid 1px white;
+    border-radius: 16px;
+    top :16px;
+    left: 16px;
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -383,3 +424,19 @@ a{
   }
 }
 /*----------------*/
+/*----Icone phosphor----*/
+.ph-star{
+    color: rgb(255, 208, 0);
+}
+/*----------------------*/
+/*----Média----*/
+@media all and (max-width: 1000px){
+
+}
+@media all and (max-width: 700px){
+
+}
+@media all and (max-width: 450px){
+
+}
+/*-------------*/
