@@ -8,7 +8,7 @@
     --primary: black;
     --secondary: white;
     --tertiary: rgb(53, 115, 139);
-    --gap: 32px
+    --gap: 16px
 }
 /*-----------------*/
 /*----Reset---*/
@@ -455,7 +455,7 @@ p{
 @media all and (max-width: 1000px){
 }
 @media all and (max-width: 700px){
-    
+
 }
 @media all and (max-width: 450px){
 
